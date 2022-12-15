@@ -4,7 +4,6 @@ using RestaurantAPI.Services;
 
 namespace RestaurantAPI.Controllers
 {
-    Test test test
     [Route("api/restaurant")]
     //Dodając ten atrybut wszystkie modele są automatycznie walidowane dla każdej akcji
     [ApiController]
