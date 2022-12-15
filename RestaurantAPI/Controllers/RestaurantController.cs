@@ -16,7 +16,6 @@ namespace RestaurantAPI.Controllers
             _restaurantService = restaurantService;
         }
 
-
         [HttpPut("{id}")]
         public ActionResult Update([FromRoute]int id, [FromBody]UpdateRestaurantDto dto)
         {
